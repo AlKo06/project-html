@@ -273,6 +273,33 @@
             margin: 0 auto;
         }
 
+        .company-section {
+            max-width: 1200px;
+            margin: 0 auto 50px auto;
+        }
+
+        .company-link {
+            margin-top: 20px;
+        }
+
+        .company-link a {
+            display: inline-block;
+            background: linear-gradient(135deg, #495057 0%, #6c757d 100%);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .company-link a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+        }
+
         /* ===== TIMELINE PERIODI ===== */
         .timeline-section {
             margin-bottom: 60px;
@@ -628,24 +655,45 @@
             </div>
         </header>
 
+        <!-- SEZIONE AZIENDA LOCCIONI -->
+        <section class="company-section">
+            <div class="content-box">
+                <h2>L'Azienda Loccioni</h2>
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <p>Loccioni è un'impresa italiana leader nell'<strong>innovazione tecnologica</strong> e nell'<strong>automazione industriale</strong>, fondata nel 1968 da Enrico Loccioni. Con sede principale ad Angeli di Rosora (AN), l'impresa si distingue per la progettazione e realizzazione di <strong>sistemi di misura e controllo</strong>  per settori strategici come automotive, energia, ambiente e sanità.</p>
+                        <p>L'impresa è riconosciuta a livello internazionale per la sua capacità di integrare tecnologie avanzate con un <strong>approccio sostenibile</strong>, sviluppando soluzioni innovative che migliorano la qualità della vita e la competitività delle imprese. Loccioni rappresenta un esempio di eccellenza italiana nel campo della ricerca e sviluppo tecnologico.</p>
+                        <div class="company-link">
+                            <a href="https://www.loccioni.com/it/" target="_blank" rel="noopener noreferrer">
+                                Visita il sito ufficiale di Loccioni →
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="img/impresaLoccioniStabilimenti.jpg" alt="Sede Loccioni" class="experience-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- SEZIONE TIMELINE PERIODI -->
         <section class="timeline-section">
             <h2 class="timeline-title">Periodi di Svolgimento</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-date">Fase 1</div>
-                    <div class="timeline-period">16 Gennaio - 14 Marzo</div>
+                    <div class="timeline-period">Gennaio - Marzo</div>
                     <div class="timeline-description">Formazione teorica<br>Martedì e Giovedì<br>14:00 - 18:00</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-date">Fase 2</div>
                     <div class="timeline-period">20 Maggio - 7 Giugno</div>
-                    <div class="timeline-description">Progetto Pratico<br>Alternanza mattina-pomeriggio<br>8:30 - 12:30 / 14:00 - 18:00</div>
+                    <div class="timeline-description">Progetto pratico<br>Sviluppo macchina<br>test iniettori</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-date">Fase 3</div>
-                    <div class="timeline-period">9 - 21 Settembre</div>
-                    <div class="timeline-description">Progetto Pratico<br>Alternanza mattina-pomeriggio<br>8:30 - 12:30 / 14:00 - 18:00</div>
+                    <div class="timeline-period">7 - 21 Settembre</div>
+                    <div class="timeline-description">Completamento<br>e integrazione<br>robot collaborativo</div>
                 </div>
             </div>
         </section>
@@ -655,8 +703,8 @@
                 <h2>Formazione Multidisciplinare</h2>
                 <div class="experience-content reversed">
                     <div class="experience-text">
-                        <p>Nel primo periodo del PCTO presso Loccioni, abbiamo frequentato lezioni pomeridiane ogni martedì e giovedì, dalle 14:00 alle 18:00. Ogni incontro era dedicato a una materia diversa.</p>
-                        <p>Le lezioni erano tenute da professionisti dell'azienda, che ci hanno trasmesso non solo nozioni tecniche, ma anche l'approccio pratico. L'aspetto più interessante è stato poter approcciare diverse competenze rispetto a quelle che normalmente mi sono state insegnate seguendo il mio corso di studi.</p>
+                        <p>Nel primo periodo del PCTO presso Loccioni, abbiamo frequentato lezioni pomeridiane ogni martedì e giovedì, dalle 14:00 alle 18:00. Ogni incontro era dedicato a una <strong>materia diversa</strong>.</p>
+                        <p>Le lezioni erano tenute da professionisti dell'azienda, che ci hanno trasmesso non solo <strong>nozioni tecniche</strong>, ma anche l'<strong>approccio pratico</strong>. L'aspetto più interessante è stato poter <strong>approcciare diverse competenze</strong> rispetto a quelle che normalmente mi sono state insegnate seguendo il mio corso di studi.</p>
                     </div>
                     <div class="image-container">
                         <img src="img/lezioneFotografiaPCTO.jpg" alt="Lezioni formative presso Loccioni" class="experience-image">
@@ -668,19 +716,29 @@
                 <h2>Progetto Pratico</h2>
                 <div class="experience-content">
                     <div class="experience-text">
-                        <p>Nelle fasi successive, abbiamo svolto un progetto pratico: lo sviluppo di una macchina con lo scopo di eseguire un test sugli iniettori, un componente del sistema di alimentazione dei motori a combustione interna che ha il compito di iniettare il carburante all'interno della camera di combustione.</p>
-                        <p>Durante il progetto abbiamo collaborato in piccoli gruppi, seguendo tutte le fasi del ciclo di sviluppo: dalla progettazione meccanica e definizione delle specifiche tecniche, fino alla programmazione e test funzionale del dispositivo. Questo ci ha permesso di mettere in pratica le conoscenze apprese durante la fase teorica, lavorando in un contesto reale e simulando il flusso di lavoro tipico di un'azienda tecnologica.</p> 
-                        <p>Uno degli aspetti più formativi è stato imparare a comunicare all'interno del team, gestire il tempo e rispettare le scadenze. Inoltre, l'assistenza costante da parte dei tutor aziendali ha reso possibile un apprendimento diretto e concreto, favorendo lo sviluppo di competenze trasversali come la collaborazione, la flessibilità e il problem solving.</p> 
-                    </div> 
-                    <div class="image-container"> <img src="img/progettoPCTO.jpg" alt="Progetto pratico macchina test iniettori" class="experience-image"> </div> 
-                </div> 
+                        <p>Nelle fasi successive, abbiamo svolto un progetto pratico: lo sviluppo di una macchina con lo scopo di eseguire un <strong>test sugli iniettori</strong>, un componente del sistema di <strong>alimentazione dei motori a combustione interna</strong> che ha il compito di <strong>iniettare il carburante</strong> all'interno della camera di combustione.</p>
+                        <p>Durante il progetto abbiamo collaborato in <strong>piccoli gruppi</strong>, seguendo tutte le <strong>fasi del ciclo di sviluppo</strong>: dalla progettazione meccanica e definizione delle specifiche tecniche, fino alla programmazione e test funzionale del dispositivo. Questo ci ha permesso di <strong>mettere in pratica le conoscenze apprese durante la fase teorica</strong>, lavorando in un contesto reale e simulando il flusso di lavoro tipico di un'azienda tecnologica.</p> 
+                        <p>Gli aspetti più formativi sono stati <strong>imparare a comunicare all'interno del team, gestire il tempo e rispettare le scadenze</strong>. Inoltre, l'assistenza costante da parte dei tutor aziendali ha reso possibile un <strong>apprendimento diretto e concreto</strong>, favorendo lo sviluppo di competenze trasversali come la collaborazione, la flessibilità e il problem solving.</p> 
+                      </div>
+                    <div class="image-container">
+                        <img src="img/progettoPCTO.jpg" alt="Progetto macchina test iniettori" class="experience-image">
+                    </div>
+                </div>
             </div>
-            <div class="content-box"> <h2>Conclusione e Competenze Acquisite</h2> 
-                <p>Il percorso PCTO presso Loccioni è stato estremamente arricchente sotto diversi punti di vista. Non solo ho acquisito nuove conoscenze tecniche e pratiche, ma ho anche potenziato la mia capacità di lavorare in gruppo, adattarmi a nuove situazioni e comunicare in modo più efficace.</p> <p>Grazie a questa esperienza, ho potuto comprendere meglio il mondo del lavoro, in particolare quello legato al settore dell'automazione industriale. Questo ha influenzato positivamente anche la mia visione del futuro, aiutandomi a orientarmi meglio nelle scelte post-diploma.</p> 
-                    
-            </div> 
-                </section> 
-            </main> 
-        <footer class="site-footer"> <p> Koka Alex </p> </footer> 
-    </body>
+
+            <div class="content-box"> 
+                <h2>Conclusione e Competenze Acquisite</h2> 
+                <p>Il 20 settembre si è svolto l’evento conclusivo della nostra esperienza presso Loccioni: la <strong>presentazione ufficiale</strong> del progetto completato <strong>al cliente</strong>. È stato un <strong>momento significativo e carico di emozione</strong>, frutto di settimane di lavoro, collaborazione e crescita professionale.
+                    Durante l’incontro, <strong>abbiamo illustrato ogni fase del percorso</strong>, dall'analisi del progetto alle soluzioni adottate, evidenziando le tecnologie utilizzate e i risultati ottenuti. Ogni membro del gruppo ha avuto l’opportunità di contribuire, dimostrando <strong>padronanza del lavoro svolto e consapevolezza delle competenze acquisite</strong>.
+                    Il cliente si è mostrato molto soddisfatto del risultato finale, riconoscendo l’impegno e la serietà del nostro team. Questo momento ha rappresentato non solo la <strong>realizzazione dei nostri sforzi</strong>, ma anche un’occasione concreta di confronto con il mondo del lavoro.</p>
+                <p>Il percorso PCTO presso Loccioni è stato estremamente <strong>arricchente sotto diversi punti di vista</strong>. Non solo ho acquisito <strong>nuove conoscenze tecniche e pratiche</strong>, ma ho anche <strong>potenziato la mia capacità di lavorare in gruppo, adattarmi a nuove situazioni e comunicare in modo più efficace</strong>.</p> 
+                <p>Grazie a questa esperienza, ho potuto <strong>comprendere meglio il mondo del lavoro</strong>, in particolare quello legato al settore dell'automazione industriale. Questo ha <strong>influenzato positivamente anche la mia visione del futuro</strong>, aiutandomi a orientarmi meglio nelle scelte post-diploma.</p>                           
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2023 Koka Alex - IIS Marconi Pieralisi</p>
+    </footer>
+</body>
 </html>
