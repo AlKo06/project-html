@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Area Professionalizzante - Koka Alex</title>
+    <title>Professionalizzante - Koka Alex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="personale.html">Personale</a></li>
-            <li><a href="professionalizzante.html" class="active">Professionalizzante</a></li>
+            <li><a href="professionale.html" class="active">Professionalizzante</a></li>
             <li><a href="umanistica.html">Umanistica</a></li>
             <li><a href="pcto.html">PCTO</a></li>
             <li><a href="educazioneCivica.html">Educazione Civica</a></li>
@@ -20,44 +20,244 @@
     </nav>
 
     <main class="page-content">
-        <header class="page-header">
-            <h1>Area Professionalizzante</h1>
-            <p>Progetti e competenze tecniche sviluppate durante il triennio</p>
+        <header class="page-header background-header">
+            <div class="overlay"></div>
+            <div class="header-text">
+                <h1>Portfolio Professionalizzante</h1>
+                <p>Progetti delle materie tecniche del corso di studi</p>
+            </div>
         </header>
-        
-        <section class="page-section">
+
+
+           <!-- SEZIONE INFORMATICA -->
+        <section class="subject-section">
             <div class="content-box">
                 <h2>Informatica</h2>
-                <div class="preview-section" style="padding: 20px 0;">
-                    <div class="preview-card">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    <div class="preview-card">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-box">
-                <h2></h2>
-                <div class="preview-section" style="padding: 20px 0;">
-                    <div class="preview-card">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    <div class="preview-card">
-                        <h3></h3>
-                        <p></p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>HELP DESK</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <a href="https://helpdesk.sviluppo.host/login.php" target="_blank">
+                                    <img src="img/helpdesk.png" alt="Applicazione Web Help Desk" class="project-preview">
+                                </a>
+                            </div>
+                            <div class="project-text">
+                                <p>Sviluppo di un'<strong>applicazione web di help desk</strong> progettata specificamente per gestire in modo efficiente le segnalazioni di problemi da parte degli utenti all'interno dell'ambiente scolastico.</p>
+                                <p>Il sistema implementa diverse funzioni per la gestione dei ticket: dalla creazione della segnalazione, all'assegnazione ai tecnici competenti, fino alla risoluzione e chiusura del caso. Inoltre è stato implementato anche un sistema per la valutazione di utenti e operatori.</p>
+                                <p>L'interfaccia è stata progettata per essere <strong>intuitiva e accessibile</strong>, permettendo agli utenti di segnalare facilmente i problemi e ai tecnici di gestire efficacemente le richieste.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- SEZIONE SISTEMI E RETI -->
+        <section class="subject-section">
+            <div class="content-box">
+                <h2>Sistemi e Reti</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Casa Intelligente</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <a href="progetti/IoT_KokaAlex.pkt" target="_blank">
+                                    <img src="img/IoTCisco.png" alt="Progetto Casa Intelligente - Cisco Packet Tracer" class="project-preview">
+                                </a>
+                            </div>
+                            <div class="project-text">
+                                <p>È stato sviluppato un <strong>sistema domotico</strong> che permette il <strong>controllo a distanza</strong> dei dispositivi intelligenti presenti in un’abitazione, utilizzando uno smartphone. Attraverso questa rete è possibile interagire con <strong>luci</strong>, <strong>sirene</strong>, <strong>sensori</strong>, <strong>porte</strong> e <strong>webcam</strong>, creando un ambiente domestico completamente connesso.</p>
+
+                                <p>La comunicazione tra smartphone e dispositivi avviene tramite <strong>Internet</strong>, sfruttando una rete mobile. All’interno della casa, un <strong>router centrale</strong> coordina tutti i dispositivi IoT. I comandi vengono inviati e ricevuti in <strong>tempo reale</strong>, rendendo possibile il monitoraggio e la gestione dell’ambiente in modo pratico e sicuro.</p>
+                                
+                                <p>Il progetto dimostra come l’integrazione tra <strong>tecnologia IoT</strong> e <strong>reti di telecomunicazione</strong> possa rendere l’abitazione più <strong>intelligente</strong>, <strong>efficiente</strong> e facilmente controllabile da qualsiasi luogo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Gioco led con pulsanti</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <a href="progetti/28042024_RelazioneGiocoLed-Pulsanti_KokaAlex.pdf" target="_blank">
+                                    <img src="img/giocoLed.jpg" alt="Gioco led con pulsanti - Raspberry Pi" class="project-preview">
+                                </a>
+                            </div>
+                            <div class="project-text">
+                                <p>Il progetto consiste nello sviluppo di un <strong>gioco di riflessi</strong> realizzato con una <strong>scheda Raspberry Pi</strong>. Due giocatori si sfidano premendo un pulsante non appena si spegne un <strong>LED</strong>: il primo a reagire vince la manche. Il sistema è in grado di rilevare automaticamente il <strong>tempo di reazione</strong> di ciascun partecipante.</p>
+
+                                <p>La <strong>relazione tecnica</strong> del progetto è stata redatta in modo autonomo, documentando il <strong>funzionamento del gioco</strong>, la <strong>logica di controllo</strong> e l’utilizzo dell’<strong>hardware</strong> impiegato.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE TIPSIT -->
+        <section class="subject-section">
+            <div class="content-box">
+                <h2>TIPSIT - Tecnologie Informatiche per i Servizi</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Android SDK e NDK</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <a href="https://prezi.com/view/QnbUr2y0oTDSnQcBJNdQ/" target="_blank">
+                                    <img src="img/androidSDKNDK.png" alt="Android Runtime System" class="project-preview">
+                                </a>
+                            </div>
+                            <div class="project-text">
+                                <p>
+                                    In questo progetto parlo degli strumenti principali per sviluppare app Android: <strong>Android SDK</strong> e <strong>NDK</strong>.
+                                </p>
+                                <p>
+                                    L’<strong>SDK</strong> è il kit di sviluppo che contiene tutto il necessario per creare un'app: <strong>Android Studio</strong>, le <strong>API</strong> e gli <strong>emulatori</strong> per testare il funzionamento su diversi dispositivi.
+                                </p>
+                                <p>
+                                    Il <strong>NDK</strong> invece permette di scrivere parti dell’app in linguaggi come <strong>C</strong> e <strong>C++</strong>, utile per migliorare le prestazioni quando serve lavorare "più vicino" all’hardware.
+                                </p>
+                                <p>
+                                    Infine, spiego anche come collegare il codice nativo a quello Java grazie a <strong>JNI</strong> (Java Native Interface).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE INTELLIGENZA ARTIFICIALE -->
+        <section class="subject-section">
+            <div class="content-box">
+                <h2>Intelligenza Artificiale</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Machine Learning - CNN</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <a href="http://drive.google.com/file/d/1Q31Akujm-62Wf07D_iWN9MnHwQhqb4Ni/view" target="_blank">
+                                    <img src="img/ml-cnn.jpg" alt="Reti Neurali Convoluzionali - CNN" class="project-preview">
+                                </a>
+                            </div>
+                            <div class="project-text">
+                                <p>
+                                    Il progetto, sviluppato su <strong>Google Colab</strong>, utilizza un dataset derivato da <strong>ImageNet</strong> con un numero ridotto di immagini rispetto alla versione originale. Le immagini rappresentano diverse categorie visive da classificare.
+                                </p>
+
+                                <p>
+                                    Il dataset è stato suddiviso in tre sezioni: una dedicata alla <strong>fase di addestramento</strong>,una alla <strong>valutazione</strong> delle prestazioni del modello e l'ultima .
+                                </p>
+
+                                <p>
+                                    È stato impiegato l’algoritmo <strong>K-Nearest Neighbors (KNN)</strong>, noto per la sua semplicità e per l’efficacia nel riconoscimento di pattern visivi.
+                                </p>
+
+                                <p>
+                                    Al termine dell’addestramento è stata prodotta una <strong>matrice di confusione</strong>, utile per analizzare l’accuratezza della classificazione eseguita dal modello.
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Machine Learning - KNN</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <a href="https://drive.google.com/file/d/13KZlgo9U3bq-RyNb-CGeOrk7PZ6S2WWz/view">
+                                    <img src="img/ml-knn.jpg" alt="Algoritmo K-Nearest Neighbors" class="project-preview">
+                                </a>
+                            </div>
+                            <div class="project-text">
+                                <p>Studio e implementazione dell'algoritmo <strong>K-Nearest Neighbors (KNN)</strong> per problemi di classificazione e regressione.</p>
+                                <p>Analisi delle <strong>metriche di distanza</strong>, ottimizzazione del parametro K e valutazione delle performance su diversi dataset. Confronto con altri algoritmi di machine learning supervisionato.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE MATEMATICA -->
+        <section class="subject-section">
+            <div class="content-box">
+                <h2>Matematica</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Statistica: L'Amore in Classe</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="img/amoreInClasse.jpg" alt="Progetto Statistica - L'Amore in Classe" class="project-preview">
+                            </div>
+                            <div class="project-text">
+                                <p>Questo progetto ha come obiettivo l’analisi di come una <strong>relazione sentimentale</strong> tra compagni di classe possa avere effetti sulla <strong>vita scolastica</strong>. Per farlo, è stato realizzato un <strong>questionario</strong> utilizzando <strong>Google Moduli</strong>, rivolto a ragazzi e ragazze di età diverse.</p>
+                                <p>Le domande proposte mirano a raccogliere opinioni e esperienze personali riguardo l’impatto che una relazione può avere su vari aspetti della scuola. In particolare, si è cercato di capire se ci siano cambiamenti nella <strong>concentrazione</strong>, nella <strong>motivazione</strong> allo studio, nel <strong>rendimento</strong> e nella partecipazione ad <strong>attività extrascolastiche</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Geometria euclidea </h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="img/geometria.jpg" alt="Progetto Geometria euclidea" class="project-preview">
+                            </div>
+                            <div class="project-text">
+                                <p>L’obiettivo di questo progetto è spiegare i concetti più importanti della geometria euclidea in modo chiaro, usando <strong>esempi semplici</strong> e <strong>immagini</strong> per aiutare la comprensione.</p>
+                                <h4><strong>Cosa viene spiegato</strong></h4>
+                                <ul>
+                                <li><strong>Triangoli</strong> e come capire se sono uguali</li>
+                                <li><strong>Quadrilateri</strong> e le loro caratteristiche</li>
+                                <li><strong>Circonferenza</strong> e <strong>poligoni</strong></li>
+                                <li><strong>teoremi di Pitagora ed Euclide</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE GPOI -->
+        <section class="subject-section">
+            <div class="content-box">
+                <h2>GPOI - Gestione Progetto Organizzazione d'Impresa</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Analisi Help Desk</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="img/analisi-helpdesk.jpg" alt="Analisi Progetto Help Desk" class="project-preview">
+                            </div>
+                            <div class="project-text">
+                                <p>Analisi completa del <strong>progetto Help Desk</strong> dal punto di vista organizzativo e gestionale. Studio approfondito delle metodologie di project management applicate allo sviluppo software.</p>
+                                <p>L'analisi comprende <strong>pianificazione delle risorse</strong>, definizione dei milestone, gestione dei rischi e valutazione dei costi-benefici del sistema implementato.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Analisi Sito Web</h3>
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="img/analisi-sitoweb.jpg" alt="Analisi Progetto Sito Web" class="project-preview">
+                            </div>
+                            <div class="project-text">
+                                <p>Studio e analisi organizzativa per lo <strong>sviluppo di un sito web aziendale</strong>. Definizione dei requisiti, analisi degli stakeholder e pianificazione delle fasi di sviluppo.</p>
+                                <p>Il progetto include <strong>analisi di fattibilità</strong>, studio della concorrenza, definizione dell'architettura informativa e pianificazione delle strategie di deployment e manutenzione.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="site-footer">
-        <p>© 2023 Koka Alex - IIS Marconi Pieralisi</p>
+        <p>Koka Alex</p>
     </footer>
+
 </body>
 </html>
