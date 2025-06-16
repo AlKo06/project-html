@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professionalizzante - Koka Alex</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .background-header {
+            background-image: url("img/sfondoProfessionalizzante.jpg");
+        }
+    </style>
+
 </head>
 <body>
     <nav>
@@ -23,7 +30,7 @@
         <header class="page-header background-header">
             <div class="overlay"></div>
             <div class="header-text">
-                <h1>Portfolio Professionalizzante</h1>
+                <h1>Professionalizzante</h1>
                 <p>Progetti delle materie tecniche del corso di studi</p>
             </div>
         </header>
@@ -68,10 +75,7 @@
                             </div>
                             <div class="project-text">
                                 <p>È stato sviluppato un <strong>sistema domotico</strong> che permette il <strong>controllo a distanza</strong> dei dispositivi intelligenti presenti in un’abitazione, utilizzando uno smartphone. Attraverso questa rete è possibile interagire con <strong>luci</strong>, <strong>sirene</strong>, <strong>sensori</strong>, <strong>porte</strong> e <strong>webcam</strong>, creando un ambiente domestico completamente connesso.</p>
-
                                 <p>La comunicazione tra smartphone e dispositivi avviene tramite <strong>Internet</strong>, sfruttando una rete mobile. All’interno della casa, un <strong>router centrale</strong> coordina tutti i dispositivi IoT. I comandi vengono inviati e ricevuti in <strong>tempo reale</strong>, rendendo possibile il monitoraggio e la gestione dell’ambiente in modo pratico e sicuro.</p>
-                                
-                                <p>Il progetto dimostra come l’integrazione tra <strong>tecnologia IoT</strong> e <strong>reti di telecomunicazione</strong> possa rendere l’abitazione più <strong>intelligente</strong>, <strong>efficiente</strong> e facilmente controllabile da qualsiasi luogo.</p>
                             </div>
                         </div>
                     </div>
@@ -85,9 +89,12 @@
                                 </a>
                             </div>
                             <div class="project-text">
-                                <p>Il progetto consiste nello sviluppo di un <strong>gioco di riflessi</strong> realizzato con una <strong>scheda Raspberry Pi</strong>. Due giocatori si sfidano premendo un pulsante non appena si spegne un <strong>LED</strong>: il primo a reagire vince la manche. Il sistema è in grado di rilevare automaticamente il <strong>tempo di reazione</strong> di ciascun partecipante.</p>
-
-                                <p>La <strong>relazione tecnica</strong> del progetto è stata redatta in modo autonomo, documentando il <strong>funzionamento del gioco</strong>, la <strong>logica di controllo</strong> e l’utilizzo dell’<strong>hardware</strong> impiegato.</p>
+                                <p>
+                                    Il progetto prevede lo sviluppo di un <strong>gioco di riflessi</strong> basato sull’utilizzo di una <strong>scheda Raspberry Pi</strong>. Due giocatori si sfidano premendo un pulsante non appena si spegne un <strong>LED</strong>: il primo a reagire vince la manche. Il sistema misura automaticamente il <strong>tempo di reazione</strong> di ciascun partecipante.
+                                </p>
+                                <p>
+                                    La <strong>relazione tecnica</strong> descrive il <strong>funzionamento del gioco</strong>, la <strong>logica di controllo</strong> implementata e l’<strong>hardware</strong> utilizzato per realizzare il progetto.
+                                </p>  
                             </div>
                         </div>
                     </div>
@@ -110,16 +117,13 @@
                             </div>
                             <div class="project-text">
                                 <p>
-                                    In questo progetto parlo degli strumenti principali per sviluppare app Android: <strong>Android SDK</strong> e <strong>NDK</strong>.
+                                    Questo progetto descrive gli strumenti principali per sviluppare app Android: <strong>Android SDK</strong> e <strong>NDK</strong>.
                                 </p>
                                 <p>
                                     L’<strong>SDK</strong> è il kit di sviluppo che contiene tutto il necessario per creare un'app: <strong>Android Studio</strong>, le <strong>API</strong> e gli <strong>emulatori</strong> per testare il funzionamento su diversi dispositivi.
                                 </p>
                                 <p>
                                     Il <strong>NDK</strong> invece permette di scrivere parti dell’app in linguaggi come <strong>C</strong> e <strong>C++</strong>, utile per migliorare le prestazioni quando serve lavorare "più vicino" all’hardware.
-                                </p>
-                                <p>
-                                    Infine, spiego anche come collegare il codice nativo a quello Java grazie a <strong>JNI</strong> (Java Native Interface).
                                 </p>
                             </div>
                         </div>
@@ -134,44 +138,42 @@
                 <h2>Intelligenza Artificiale</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <h3>Machine Learning - CNN</h3>
+                        <h3>Machine Learning - KNN</h3>
                         <div class="project-content">
                             <div class="project-image">
-                                <a href="http://drive.google.com/file/d/1Q31Akujm-62Wf07D_iWN9MnHwQhqb4Ni/view" target="_blank">
-                                    <img src="img/ml-cnn.jpg" alt="Reti Neurali Convoluzionali - CNN" class="project-preview">
+                                <a href="https://drive.google.com/file/d/13KZlgo9U3bq-RyNb-CGeOrk7PZ6S2WWz/view" target="_blank">
+                                    <img src="img/machinelearning.png" alt="Reti Neurali Convoluzionali - CNN" class="project-preview">
                                 </a>
                             </div>
                             <div class="project-text">
-                                <p>
-                                    Il progetto, sviluppato su <strong>Google Colab</strong>, utilizza un dataset derivato da <strong>ImageNet</strong> con un numero ridotto di immagini rispetto alla versione originale. Le immagini rappresentano diverse categorie visive da classificare.
-                                </p>
+                                <p>In questo progetto è stato utilizzato un approccio di <strong>apprendimento supervisionato</strong>, applicando l’algoritmo <strong>Decision Tree</strong> per classificare i dati presenti nel <strong>dataset Iris</strong>.</p>
 
-                                <p>
-                                    Il dataset è stato suddiviso in tre sezioni: una dedicata alla <strong>fase di addestramento</strong>,una alla <strong>valutazione</strong> delle prestazioni del modello e l'ultima .
-                                </p>
-
-                                <p>
-                                    È stato impiegato l’algoritmo <strong>K-Nearest Neighbors (KNN)</strong>, noto per la sua semplicità e per l’efficacia nel riconoscimento di pattern visivi.
-                                </p>
-
-                                <p>
-                                    Al termine dell’addestramento è stata prodotta una <strong>matrice di confusione</strong>, utile per analizzare l’accuratezza della classificazione eseguita dal modello.
-                                </p> 
+                                <p>Il dataset contiene informazioni su tre diverse specie di fiori iris: <strong>Setosa</strong>, <strong>Versicolor</strong> e <strong>Virginica</strong>. Ogni fiore è descritto attraverso quattro caratteristiche: <strong>lunghezza e larghezza del sepalo</strong> e <strong>lunghezza e larghezza del petalo</strong>. In totale ci sono <strong>150 campioni</strong>, 50 per ciascuna specie, il che rende il dataset molto equilibrato e perfetto per fare esperimenti con tecniche di classificazione.</p>
+                                
+                                <p>L’algoritmo Decision Tree è stato usato per costruire un <strong>modello decisionale</strong> capace di distinguere tra le tre specie analizzando queste caratteristiche. Una volta addestrato, il modello è stato testato per capire quanto fosse efficace nel riconoscere correttamente ogni tipo di fiore.</p>
+                                
+                                <p>Per valutare i risultati ottenuti è stata usata una <strong>matrice di confusione</strong>, che permette di visualizzare facilmente dove il modello ha fatto le scelte giuste e dove, invece, ha sbagliato. Questo aiuta a capire meglio quanto bene ha funzionato l’algoritmo e quali aspetti si possono migliorare.</p>                                
                             </div>
                         </div>
                     </div>
 
                     <div class="project-card">
-                        <h3>Machine Learning - KNN</h3>
+                        <h3>Deep Learning - CNN</h3>
                         <div class="project-content">
                             <div class="project-image">
-                                <a href="https://drive.google.com/file/d/13KZlgo9U3bq-RyNb-CGeOrk7PZ6S2WWz/view">
-                                    <img src="img/ml-knn.jpg" alt="Algoritmo K-Nearest Neighbors" class="project-preview">
+                                <a href="http://drive.google.com/file/d/1Q31Akujm-62Wf07D_iWN9MnHwQhqb4Ni/view" target="_blank">        
+                                    <img src="img/deeplearning.png" alt="Algoritmo K-Nearest Neighbors" class="project-preview">
                                 </a>
                             </div>
                             <div class="project-text">
-                                <p>Studio e implementazione dell'algoritmo <strong>K-Nearest Neighbors (KNN)</strong> per problemi di classificazione e regressione.</p>
-                                <p>Analisi delle <strong>metriche di distanza</strong>, ottimizzazione del parametro K e valutazione delle performance su diversi dataset. Confronto con altri algoritmi di machine learning supervisionato.</p>
+                                <p>In questo progetto è stata utilizzata una <strong>rete neurale convoluzionale (CNN)</strong> per riconoscere immagini provenienti da un <strong>dataset derivato da ImageNet</strong>, composto da <strong>1000 classi</strong> diverse, ognuna contenente <strong>100 immagini</strong>.</p>
+
+                                <p>Le immagini sono state prima <strong>preparate</strong> per l’addestramento: sono state sistemate e divise in due gruppi, uno per <strong>insegnare</strong> alla rete a riconoscere gli oggetti, e uno per <strong>verificare</strong> se aveva imparato correttamente.</p>
+
+                                <p>Dopo l’addestramento, per classificare le immagini, è stato usato l’<strong>algoritmo K-Nearest Neighbors (KNN)</strong> , che confronta ogni immagine nuova con quelle già conosciute, trovando quelle più simili per decidere a quale classe appartiene.</p>
+
+                                <p>Alla fine, è stata creata una <strong>matrice di confusione</strong>, uno strumento utile per capire come si è comportato il modello: mostra quante volte ha indovinato la categoria giusta e dove, invece, ha sbagliato. Questo ha permesso di valutare in modo chiaro l’<strong>accuratezza</strong> del progetto.</p>
+
                             </div>
                         </div>
                     </div>
@@ -188,7 +190,9 @@
                         <h3>Statistica: L'Amore in Classe</h3>
                         <div class="project-content">
                             <div class="project-image">
-                                <img src="img/amoreInClasse.jpg" alt="Progetto Statistica - L'Amore in Classe" class="project-preview">
+                                <a href="progetti/statistica.pdf" target="_blank">
+                                    <img src="img/amoreInClasse.jpg" alt="Progetto Statistica - L'Amore in Classe" class="project-preview">
+                                </a>
                             </div>
                             <div class="project-text">
                                 <p>Questo progetto ha come obiettivo l’analisi di come una <strong>relazione sentimentale</strong> tra compagni di classe possa avere effetti sulla <strong>vita scolastica</strong>. Per farlo, è stato realizzato un <strong>questionario</strong> utilizzando <strong>Google Moduli</strong>, rivolto a ragazzi e ragazze di età diverse.</p>
@@ -200,7 +204,9 @@
                         <h3>Geometria euclidea </h3>
                         <div class="project-content">
                             <div class="project-image">
-                                <img src="img/geometria.jpg" alt="Progetto Geometria euclidea" class="project-preview">
+                                <a href="progetti/ALLA_SCOPERTA_DELLA_GEOMETRIA-Andreoni_Koka_Lonzi_Romagnoli.pdf" target="_blank">
+                                    <img src="img/geometria.jpg" alt="Progetto Geometria euclidea" class="project-preview">
+                                </a>
                             </div>
                             <div class="project-text">
                                 <p>L’obiettivo di questo progetto è spiegare i concetti più importanti della geometria euclidea in modo chiaro, usando <strong>esempi semplici</strong> e <strong>immagini</strong> per aiutare la comprensione.</p>
@@ -227,12 +233,14 @@
                         <h3>Analisi Help Desk</h3>
                         <div class="project-content">
                             <div class="project-image">
-                                <img src="img/analisi-helpdesk.jpg" alt="Analisi Progetto Help Desk" class="project-preview">
+                                <a href="progetti/helpDesk-GPOI.pdf" target="_blank">
+                                    <img src="img/helpDesk-GPOI_page-0001.jpg" alt="Analisi Progetto Help Desk" class="project-preview">
+                                </a>
                             </div>
                             <div class="project-text">
-                                <p>Analisi completa del <strong>progetto Help Desk</strong> dal punto di vista organizzativo e gestionale. Studio approfondito delle metodologie di project management applicate allo sviluppo software.</p>
-                                <p>L'analisi comprende <strong>pianificazione delle risorse</strong>, definizione dei milestone, gestione dei rischi e valutazione dei costi-benefici del sistema implementato.</p>
-                                </div>
+                                <p>Il progetto <strong>"Help Desk"</strong> è un’applicazione web sviluppata come lavoro scolastico all’interno dell’IIS Marconi Pieralisi. L’idea nasce per rendere più semplice la <strong>gestione delle segnalazioni tecniche</strong> da parte di studenti, insegnanti e personale scolastico.</p>
+                                <p>Grazie a questo sistema, è possibile <strong>inviare richieste di assistenza</strong>, assegnarle agli operatori, seguirne lo stato e arrivare alla risoluzione del problema. Ogni utente ha un <strong>ruolo diverso</strong> all’interno della piattaforma, come segnalatore, operatore, responsabile o amministratore, e può svolgere azioni in base alle proprie funzioni.</p>
+                                <p>Il progetto prevede anche una <strong>gestione per categorie</strong> (ad esempio problemi di rete, computer o software), una <strong>sezione FAQ</strong> per trovare risposte veloci, la possibilità di aggiungere <strong>commenti</strong>, un <strong>monitoraggio in tempo reale</strong> dei ticket e <strong>statistiche</strong> per analizzare l’uso del servizio.</p>
                             </div>
                         </div>
                     </div>
@@ -240,12 +248,15 @@
                         <h3>Analisi Sito Web</h3>
                         <div class="project-content">
                             <div class="project-image">
-                                <img src="img/analisi-sitoweb.jpg" alt="Analisi Progetto Sito Web" class="project-preview">
+                                <a href="progetti/progetto-sitoWeb.pdf" target="_blank">
+                                    <img src="img/sitoweb.jpg" alt="Analisi Progetto Sito Web" class="project-preview">
+                                </a>
                             </div>
                             <div class="project-text">
-                                <p>Studio e analisi organizzativa per lo <strong>sviluppo di un sito web aziendale</strong>. Definizione dei requisiti, analisi degli stakeholder e pianificazione delle fasi di sviluppo.</p>
-                                <p>Il progetto include <strong>analisi di fattibilità</strong>, studio della concorrenza, definizione dell'architettura informativa e pianificazione delle strategie di deployment e manutenzione.</p>
-                                </div>
+                                <p>Questo progetto consiste nella realizzazione di un <strong>sito web personale</strong> che mostri il proprio percorso scolastico e le competenze acquisite, ed è diviso in cinque sezioni: <strong>Personale</strong>, <strong>Professionalizzante</strong>, <strong>Umanistica</strong>, <strong>PCTO</strong> ed <strong>Educazione Civica</strong>.</p>
+                                <p>È stato creato utilizzando i linguaggi <strong>HTML</strong> e <strong>CSS</strong>.</p>
+                                <p>Il lavoro comprende anche una <strong>fase di preparazione</strong>, con analisi iniziale, <strong>progettazione grafica</strong> (mockup), pianificazione delle attività con <strong>WBS</strong> e <strong>diagramma di Gantt</strong>.</p>
+
                             </div>
                         </div>
                     </div>
@@ -256,7 +267,7 @@
     </main>
 
     <footer class="site-footer">
-        <p>Koka Alex</p>
+        <p>Koka Alex - IIS Marconi Pieralisi</p>
     </footer>
 
 </body>
